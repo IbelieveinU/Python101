@@ -36,7 +36,7 @@ B3.pack(ipadx=20, ipady=20)
 
 def Button4():
     text = 'ส่งแล้ว'
-    messagebox.showinfo('ยังไม่ได้ส่ง',text)
+    messagebox.showinfo('แก้ไฟล์แล้วส่ง',text)
 
 FB4 = Frame(GUI)
 FB4.place(x=80, y=220)
@@ -45,7 +45,7 @@ B4.pack(ipadx=20, ipady=20)
 
 def Button5():
     text = 'ส่งแล้ว'
-    messagebox.showinfo('ยังไม่ได้ส่ง',text)
+    messagebox.showinfo('ส่งหลังตรวจสอบแล้ว',text)
 
 FB5 = Frame(GUI)
 FB5.place(x=80, y=290)
